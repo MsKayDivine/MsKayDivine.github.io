@@ -1,0 +1,139 @@
+.grid{
+  display:grid;
+  grid-template-rows:10% 10% 80% 0.1%;
+  grid-template-columns:0.1fr 0.5fr 1fr 1fr;
+  grid-row-gap: 30px;
+  grid-column-gap:30px ;
+
+}
+.header {
+    grid-column-start:1;
+    grid-column-end:5;
+
+}
+
+.main {
+    grid-row-start:2 ;
+    grid-row-end:6;
+    grid-column-start:3;
+    grid-column-end:4;
+
+}
+
+.aside {
+    grid-row-start:2;
+    grid-row-end:4 ;
+    grid-column-start:2;
+    grid-column-end:3;
+    align-items: center;
+
+  }
+
+header{
+  background-color: #F96900;
+  display: grid;
+  text-align: center;
+  line-height: 10px;
+
+}
+
+aside{
+  background-color:#EAEAEA;
+  font-size: 12px;
+  padding-left: 6px;
+padding-right: 6px;
+text-align:justify;
+}
+
+main{
+
+  font-size:13px;
+  text-align:justify;
+}
+.imge{
+  border-radius:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+.headerflex {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+
+        }
+        .lflexer{
+          display:flex;
+          flex-direction: column;
+          justify-content: left;
+          align-items: left;
+          align-content: center;
+        }
+
+        .rflexer{
+          display:flex;
+          flex direction: column;
+          justify-content: left;
+          align-items: left;
+          align-content: center;
+        }
+        .hborder{
+          border:solid white 2px;
+          width:450px;
+        }
+
+
+
+hr{
+  opacity:5;
+  background-color: grey;
+}
+  #fontset1{
+          font-family: Lobster;
+          font-size: 20px;
+        }
+
+        #fontset2{
+          font-family: Lobster;
+          font-size: 15px;
+        }
+
+}
+.imge{
+  border-radius:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+.headerflex {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+  }
+
+  .flex1
+  {
+    display:flex;
+
+  }
+.margin
+{
+  margin-top: 0;
+}
+
+.spacing{
+  padding-left: 90px;
+}
+
+.marginleft{
+  padding-right: 10px;
+}
+.width{
+  width:40px;
+}
